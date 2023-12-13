@@ -13,7 +13,10 @@ export default function Dictionary() {
     event.preventDefault();
 
     // documentation: https://www.shecodes.io/learn/apis/dictionary
-    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=book&key=d494296b1e5a34o4t344f5460f276a60`;
+    //let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=book&key=d494296b1e5a34o4t344f5460f276a60`;
+
+    // documentation: https://dictionaryapi.dev/e
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
 
