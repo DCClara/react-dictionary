@@ -58,6 +58,7 @@ export default function Dictionary(props) {
           <form className="DictionaryForm" onSubmit={handleSubmit}>
             <input
               type="search"
+              autoFocus
               onChange={handleKeywordChange}
               defaultValue={props.defaultKeyword}
             />
@@ -67,7 +68,9 @@ export default function Dictionary(props) {
           </div>
         </section>
         {error ? (
-          <p className="text-center">Sorry! Results not found, please reload and try again</p>
+          <p className="text-center">
+            Sorry! Results not found, please reload and try again
+          </p>
         ) : (
           <>
             <Results results={results} />

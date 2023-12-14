@@ -21,7 +21,11 @@
 }
 
 .Dictionary .hint {
+  text-align: center;
   font-size: 12px;
   margin-top: 5px;
 }
 
+.Dictionary p {
+  font-weight: bold;
+}
