@@ -1,11 +1,10 @@
 .Dictionary h2 {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 20px;
-}
+  }
 
 .Dictionary section {
-  background-color: white;
+  background-color: #e2f2ff;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
@@ -27,4 +26,9 @@
 
 .Dictionary p {
   font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .Dictionary h2 {
+  font-size: 16px;}
 }

@@ -9,3 +9,12 @@
     font-style: italic;
     margin-top: 10px;
 }
+
+@media (max-width: 500px) {
+    .Meaning {
+        font-size: 14px;
+    }
+    .Meaning h3 {
+        font-size: 18px;
+    }
+}
